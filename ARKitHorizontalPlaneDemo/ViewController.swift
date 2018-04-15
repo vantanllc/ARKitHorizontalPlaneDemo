@@ -16,7 +16,9 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Uncomment to configure lighting
-    // configureLighting()
+    configureLighting()
+    addTapGestureToSceneView()
+    
   }
   
   override func viewWillAppear(_ animated: Bool) {

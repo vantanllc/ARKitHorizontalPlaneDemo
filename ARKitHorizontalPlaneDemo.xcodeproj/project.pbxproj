@@ -15,6 +15,7 @@
 		638A9D021FBA065D001D52ED /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = 638A9D001FBA065D001D52ED /* ship.scn */; };
 		638A9D031FBA065D001D52ED /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 638A9D011FBA065D001D52ED /* ship.png */; };
 		8B99D9602082D205002D7B4C /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99D95F2082D205002D7B4C /* ViewController+ARSCNViewDelegate.swift */; };
+		8B99D9622082D5C7002D7B4C /* ViewController+AddShip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99D9612082D5C7002D7B4C /* ViewController+AddShip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		638A9D001FBA065D001D52ED /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
 		638A9D011FBA065D001D52ED /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
 		8B99D95F2082D205002D7B4C /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		8B99D9612082D5C7002D7B4C /* ViewController+AddShip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+AddShip.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				638A9CFF1FBA0650001D52ED /* 3D Objects */,
 				638A9CED1FBA0605001D52ED /* AppDelegate.swift */,
 				638A9CEF1FBA0605001D52ED /* ViewController.swift */,
+				8B99D9612082D5C7002D7B4C /* ViewController+AddShip.swift */,
 				8B99D95F2082D205002D7B4C /* ViewController+ARSCNViewDelegate.swift */,
 				638A9CF11FBA0605001D52ED /* Main.storyboard */,
 				638A9CF41FBA0605001D52ED /* Assets.xcassets */,
@@ -157,6 +160,7 @@
 			files = (
 				8B99D9602082D205002D7B4C /* ViewController+ARSCNViewDelegate.swift in Sources */,
 				638A9CF01FBA0605001D52ED /* ViewController.swift in Sources */,
+				8B99D9622082D5C7002D7B4C /* ViewController+AddShip.swift in Sources */,
 				638A9CEE1FBA0605001D52ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
