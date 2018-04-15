@@ -9,6 +9,23 @@
 import ARKit
 
 extension ViewController: ARSCNViewDelegate {
+  
+  func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+    guard let planeAnchor = anchor as? ARPlaneAnchor,
+      let planeNode = node.childNodes.first,
+      let plane = planeNode.geometry as? SCNPlane else { return }
+    
+    let width = CGFloat(planeAnchor.extent.x)
+    let height = CGFloat(planeAnchor.extent.z)
+    plane.width = width
+    plane.height = height
+    
+    let x = CGFloat(planeAnchor.center.x)
+    let y = CGFloat(planeAnchor.center.y)
+    let z = CGFloat(planeAnchor.center.z)
+    planeNode.position = SCNVector3(x, y, z)
+  }
+  
   func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
     guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
     
